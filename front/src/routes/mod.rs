@@ -14,6 +14,8 @@ pub use contact::Contact;
 pub enum AppRoute {
     #[to = "/about"]
     About,
+    #[to = "/contact"]
+    Contact,
     #[to = "/page-not-found"]
     PageNotFound(Permissive<String>),
     #[to = "/"]
