@@ -24,14 +24,6 @@ impl Component for About {
             <div class="app">
                 <header class="app-header">
                     <p>
-                        <a
-                            class="app-link"
-                            href="https://github.com/jetli/create-yew-app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            { "Create Yew App" }
-                        </a>
                         { ", Set up a modern yew web app by running one command." }
                     </p>
                     <p>
